@@ -1,3 +1,6 @@
+//PARA HACER EL CODIGO MAS PROLIJO SEPARE EN UN JS DIFERENTE EL MODAL Y NO CARGAR MUCHO CODIGO EN EL APP.JS
+
+
 const contenedorModal = document.getElementsByClassName('modal-contenedor')[0]
 const botonAbrir = document.getElementById('boton-carrito')
 const botonCerrar = document.getElementById('carritoCerrar')
