@@ -13,8 +13,8 @@ img {
 }
 
 .carrusel{
-    
-    height: 50%;
+    margin-top: -10%;
+    height: 90%;
 }
 
 .formulario {
@@ -25,6 +25,9 @@ img {
     width: auto;
     border: black solid 4px;
     border-radius: 20px;       
+}
+
+.mapa{
 }
 
 header {
@@ -48,21 +51,22 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     margin: 20px;
     padding: 20px;
+    
 }
 
 #boton-carrito {
     border: none;
-    color: royalblue;
+    color: rgb(0, 0, 0);
     font-size: 40px;
     background-color: white;
-    border-radius: 50%;
+    border-radius: 79%;
     padding: 10px 20px;
     transition: all .3s;
 }
 #boton-carrito:hover {
     cursor: pointer;
     color: white;
-    background-color: royalblue;
+    background-color: rgb(194, 55, 55);
 }
 #boton-carrito:focus {
     outline: none;
@@ -90,7 +94,7 @@ p {
     font-weight: 700;
 }
 .boton-agregar {
-    background-color: royalblue;
+    background-color: rgb(7, 73, 255);
     color: white;
     font-size: 18px;
     font-weight: 700;
